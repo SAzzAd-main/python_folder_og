@@ -1,0 +1,6 @@
+numbers = (input("Enter two numbers: "))
+num1_str, num2_str = numbers.split()
+print(type(num1_str)," and ",type(num2_str))
+num1 = int(num1_str)
+num2 = int(num2_str)
+print("The sum is: ", num1 + num2)
